@@ -372,9 +372,6 @@ $ git checkout origin/pr/112 -b new-branch
 <h3>Generating Dependency Graphs</h3>
 
 ```
-$ # sbt
-$ build/sbt dependency-tree
- 
 $ # Maven
 $ build/mvn -DskipTests install
 $ build/mvn dependency:tree
